@@ -2,10 +2,4 @@
 
 Export a 3D model that consists of multiple rooms captured in the same physical vicinity. 
 
-## Overview
-
-- Note: This sample code project is associated with WWDC23 session 10192: [Explore enhancements to RoomPlan](https://developer.apple.com/wwdc23/10192/).
-
-## Configure the sample code project
-
-Before you run the sample code project in Xcode, set the run destination to an iOS 17 device with a LiDAR Scanner.
+For more information about the app and how it works, see [Merging multiple scans into a single structure](https://developer.apple.com/documentation/roomplan/merging_multiple_scans_into_a_single_structure) in the developer documentation.
