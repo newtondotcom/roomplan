@@ -1,0 +1,444 @@
+{
+  "coreModel": "0r9ACUZeLrBeb0BQgJOuKEfu6sOaTPCkIb+N08QVpDoDKTGgs2xp4Fy9dmmtd7\/LV4E\/QTW6ZHsU85Mb4RObbgomLXHSS883FvOYqlNTzgKQ42DSWCTYDhee19JbWLC56DqGHWOq4YltpVogFM2oqr+wDzdgiQtEFZFoHCoJ37pQq\/jwX9qVxjQIWBf5s5BcW\/z+mx1lFsmeJ7npYBUwohSv5V3TzxuZ3WaCjr2vVTULbqExqM=",
+  "doors": [
+    {
+      "category": {
+        "door": {
+          "isOpen": false
+        }
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [3.667284, 2.050312, 0],
+      "identifier": "B435D27C-8EEC-4207-B5C1-E9BEA27BCDC7",
+      "parentIdentifier": "24561EDA-788C-48D8-86BF-951A1DDD71D8",
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        -0.16062433, 0, 0.9870156, 0, 0, 0.99999994, 0, 0, -0.98701555, 0,
+        -0.16062431, 0, 3.7049823, -0.4110228, 9.240996, 1
+      ]
+    }
+  ],
+  "floors": [
+    {
+      "category": {
+        "floor": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [6.293739, 4.8389, 0],
+      "identifier": "5F0C4D02-EDDB-40CB-95A7-DFC764BCBFBD",
+      "parentIdentifier": null,
+      "polygonCorners": [
+        [-3.0529194, -2.3671267, 0],
+        [-3.0529213, 2.2110472, 0],
+        [3.1468678, 2.2110481, 0],
+        [3.1468692, -2.3671248, 0]
+      ],
+      "story": 0,
+      "transform": [
+        0.16062464, 0, -0.9870155, 0, -0.9870156, 0, -0.16062473, 0, 0, 1, 0, 0,
+        1.353267, -1.4361788, 8.954949, 1
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "attributes": {
+        "StorageType": "shelf"
+      },
+      "category": {
+        "storage": {}
+      },
+      "confidence": {
+        "high": {}
+      },
+      "dimensions": [1.5332097, 1.4419868, 0.33079123],
+      "identifier": "C4B1116F-52E5-4F21-B1D7-8DED62B6F012",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.9870157, 0, -0.16062394, 0, 0, 1, 0, 0, 0.16062394, 0, -0.9870157, 0,
+        -0.5362284, 0.257697, 11.572969, 1
+      ]
+    },
+    {
+      "attributes": {},
+      "category": {
+        "television": {}
+      },
+      "confidence": {
+        "medium": {}
+      },
+      "dimensions": [1.3549802, 0.84399414, 0.099999905],
+      "identifier": "77260FF4-9B8D-45B9-AB75-AA1D080EBB43",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.98701566, 0, -0.16062361, 0, 0, 1, 0, 0, 0.16062361, 0, -0.98701566,
+        0, 1.0193462, 0.19826496, 11.7211685, 1
+      ]
+    },
+    {
+      "attributes": {
+        "SofaType": "lShapedExtension"
+      },
+      "category": {
+        "sofa": {}
+      },
+      "confidence": {
+        "high": {}
+      },
+      "dimensions": [1.3734041, 0.87863874, 1.0537099],
+      "identifier": "9A6B3796-FBC3-42CC-80A5-E41FC37AFA82",
+      "parentIdentifier": "E6129117-A79E-42E0-A690-5AE765B244BE",
+      "story": 0,
+      "transform": [
+        0.9870156, 0, 0.16062462, 0, 0, 1, 0, 0, -0.16062462, 0, 0.9870156, 0,
+        1.5671133, -0.9968594, 7.521978, 1
+      ]
+    },
+    {
+      "attributes": {},
+      "category": {
+        "oven": {}
+      },
+      "confidence": {
+        "low": {}
+      },
+      "dimensions": [0.59838927, 0.8902664, 0.57951456],
+      "identifier": "73428B2A-34F5-46A4-A4AE-B2242127309C",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.9870158, 0, -0.16062304, 0, 0, 1, 0, 0, 0.16062304, 0, -0.9870158, 0,
+        1.0284827, -0.99104553, 11.701609, 1
+      ]
+    },
+    {
+      "attributes": {
+        "SofaType": "lShaped"
+      },
+      "category": {
+        "sofa": {}
+      },
+      "confidence": {
+        "low": {}
+      },
+      "dimensions": [3.5501168, 0.87863874, 1.0634761],
+      "identifier": "E6129117-A79E-42E0-A690-5AE765B244BE",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.16062438, 0, 0.98701555, 0, 0, 1, 0, 0, -0.98701555, 0, -0.16062438,
+        0, 2.5902824, -0.9968594, 8.94898, 1
+      ]
+    },
+    {
+      "attributes": {
+        "StorageType": "cabinet"
+      },
+      "category": {
+        "storage": {}
+      },
+      "confidence": {
+        "low": {}
+      },
+      "dimensions": [0.70558524, 1.8210406, 0.3815499],
+      "identifier": "F0FA693D-7A19-4278-866F-9F435E31CB9A",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.16062132, 0, 0.9870161, 0, 0, 0.99999994, 0, 0, -0.987016, 0,
+        -0.1606213, 0, 3.950154, -0.5256584, 6.5467296, 1
+      ]
+    },
+    {
+      "attributes": {},
+      "category": {
+        "fireplace": {}
+      },
+      "confidence": {
+        "low": {}
+      },
+      "dimensions": [1.9145517, 1.4446378, 0.6103517],
+      "identifier": "B3EF1BFD-E5F9-4E23-B010-8590DD56DB56",
+      "parentIdentifier": "E6F9790E-21A5-410F-A9DF-64E0EA05DF02",
+      "story": 0,
+      "transform": [
+        0.16062498, 0, -0.9870155, 0, 0, 1, 0, 0, 0.9870155, 0, 0.16062498, 0,
+        -0.8423226, -0.71385986, 9.486336, 1
+      ]
+    },
+    {
+      "attributes": {
+        "StorageType": "cabinet"
+      },
+      "category": {
+        "storage": {}
+      },
+      "confidence": {
+        "high": {}
+      },
+      "dimensions": [2.032665, 0.9364841, 0.5565128],
+      "identifier": "001CCADE-A4EA-46DD-B2A2-A313B37C341E",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.98701555, 0, -0.16062465, 0, 0, 1.0000001, 0, 0, 0.16062467, 0,
+        -0.98701566, 0, -0.2716149, -0.9679368, 11.501687, 1
+      ]
+    },
+    {
+      "attributes": {
+        "StorageType": "cabinet"
+      },
+      "category": {
+        "storage": {}
+      },
+      "confidence": {
+        "high": {}
+      },
+      "dimensions": [1.9475075, 0.9364841, 0.6017484],
+      "identifier": "B66B176A-5931-4CB6-BC2A-034895B80999",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.9870157, 0, -0.16062409, 0, 0, 1.0000001, 0, 0, 0.1606241, 0,
+        -0.98701584, 0, 2.286501, -0.9679368, 11.895073, 1
+      ]
+    },
+    {
+      "attributes": {
+        "SofaType": "lShapedExtension"
+      },
+      "category": {
+        "sofa": {}
+      },
+      "confidence": {
+        "medium": {}
+      },
+      "dimensions": [0.70909035, 0.87863874, 1.0322264],
+      "identifier": "29579096-6278-49A9-9E63-29271EEBCB6A",
+      "parentIdentifier": "E6129117-A79E-42E0-A690-5AE765B244BE",
+      "story": 0,
+      "transform": [
+        -0.9870156, 0, -0.16062456, 0, 0, 1, 0, 0, 0.16062456, 0, -0.9870156, 0,
+        1.5438049, -0.9968594, 10.100453, 1
+      ]
+    },
+    {
+      "attributes": {
+        "TableShapeType": "circularElliptic",
+        "TableType": "coffee"
+      },
+      "category": {
+        "table": {}
+      },
+      "confidence": {
+        "high": {}
+      },
+      "dimensions": [0.83429426, 0.46173495, 0.46193248],
+      "identifier": "470F48AA-2006-473D-B93D-E487F5D05BE3",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        0.98701555, 0, 0.16062486, 0, 0, 1, 0, 0, -0.16062486, 0, 0.98701555, 0,
+        1.6046445, -1.2053113, 8.3107, 1
+      ]
+    },
+    {
+      "attributes": {
+        "StorageType": "shelf"
+      },
+      "category": {
+        "storage": {}
+      },
+      "confidence": {
+        "high": {}
+      },
+      "dimensions": [1.5606867, 1.41012, 0.3724029],
+      "identifier": "CB2A702A-76B4-42BB-8FE7-6515F49F9FA6",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.98701555, 0, -0.16062462, 0, 0, 1, 0, 0, 0.16062462, 0, -0.98701555,
+        0, 2.4589784, 0.25920033, 12.039333, 1
+      ]
+    },
+    {
+      "attributes": {
+        "TableShapeType": "circularElliptic",
+        "TableType": "coffee"
+      },
+      "category": {
+        "table": {}
+      },
+      "confidence": {
+        "high": {}
+      },
+      "dimensions": [0.48436096, 0.50952196, 0.46231556],
+      "identifier": "488AFC52-9149-4017-8E6F-B2A5E94AC300",
+      "parentIdentifier": null,
+      "story": 0,
+      "transform": [
+        -0.98701555, 0, -0.16062458, 0, 0, 1, 0, 0, 0.16062458, 0, -0.98701555,
+        0, 0.7888516, -1.1814178, 7.5891457, 1
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "category": {
+        "opening": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [1.4637563, 2.06, 0],
+      "identifier": "7EDE5A32-8E03-4DEA-B490-F735AF27403C",
+      "parentIdentifier": "E6F9790E-21A5-410F-A9DF-64E0EA05DF02",
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        0.16062453, 0, -0.9870156, 0, 0, 0.99999994, 0, 0, 0.98701555, 0,
+        0.16062452, 0, -0.44116503, -0.40617883, 6.2161684, 1
+      ]
+    },
+    {
+      "category": {
+        "opening": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [0.03167082, 1.8399999, 0],
+      "identifier": "25F3112E-77CE-4666-847C-B83DF114B6BB",
+      "parentIdentifier": "8478E6F1-B300-41E3-AAA8-24AF26133953",
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        0.9870167, 0, 0.16061786, 0, 0, 1, 0, 0, -0.16061786, 0, 0.9870167, 0,
+        -0.30797762, -0.51617885, 5.4963365, 1
+      ]
+    },
+    {
+      "category": {
+        "opening": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [1.9895025, 2.04, 0],
+      "identifier": "E513B016-5FD6-4384-9073-75F7D6630F46",
+      "parentIdentifier": "8478E6F1-B300-41E3-AAA8-24AF26133953",
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        0.9870156, 0, 0.16062453, 0, 0, 1, 0, 0, -0.16062453, 0, 0.9870156, 0,
+        0.6894872, -0.41617882, 5.6586614, 1
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "center": [1.4662812, 0, 8.903261],
+      "label": "livingRoom",
+      "story": 0
+    }
+  ],
+  "story": 0,
+  "version": 2,
+  "walls": [
+    {
+      "category": {
+        "wall": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [6.199788, 2.4466667, 0],
+      "identifier": "24561EDA-788C-48D8-86BF-951A1DDD71D8",
+      "parentIdentifier": null,
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        -0.16062437, 0, 0.98701566, 0, 0, 1, 0, 0, -0.98701566, 0, -0.16062437,
+        0, 3.6972022, -0.21284544, 9.288803, 1
+      ]
+    },
+    {
+      "category": {
+        "wall": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [4.578174, 2.4466667, 0],
+      "identifier": "96C3D2D3-CCF1-4BE4-80F3-81037C663B1D",
+      "parentIdentifier": null,
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        -0.98701555, 0, -0.16062427, 0, 0, 1, 0, 0, 0.16062427, 0, -0.98701555,
+        0, 0.9399191, -0.21284544, 11.980763, 1
+      ]
+    },
+    {
+      "category": {
+        "wall": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [6.199789, 2.4466667, 0],
+      "identifier": "E6F9790E-21A5-410F-A9DF-64E0EA05DF02",
+      "parentIdentifier": null,
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        0.16062453, 0, -0.98701555, 0, 0, 1, 0, 0, 0.98701555, 0, 0.16062453, 0,
+        -0.8215265, -0.21284544, 8.553437, 1
+      ]
+    },
+    {
+      "category": {
+        "wall": {}
+      },
+      "completedEdges": [],
+      "confidence": {
+        "high": {}
+      },
+      "curve": null,
+      "dimensions": [4.578173, 2.4466667, 0],
+      "identifier": "8478E6F1-B300-41E3-AAA8-24AF26133953",
+      "parentIdentifier": null,
+      "polygonCorners": [],
+      "story": 0,
+      "transform": [
+        0.9870156, 0, 0.16062441, 0, 0, 1, 0, 0, -0.16062441, 0, 0.9870156, 0,
+        1.9357567, -0.21284544, 5.861476, 1
+      ]
+    }
+  ],
+  "windows": []
+}
