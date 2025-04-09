@@ -8,7 +8,7 @@ function App() {
   const [room, setRoom] = useState<CoreModel | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const cameraRef = useRef<PerspectiveCameraProps>(null);
+  const cameraRef = useRef<any>(null);
 
   useEffect(() => {
     const fetchRoomData = async () => {

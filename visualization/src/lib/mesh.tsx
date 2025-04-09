@@ -22,7 +22,7 @@ export function Wall({ dimensions, transform, cutouts }: { dimensions: Dimension
 
   return (
     <mesh ref={meshRef} >
-      <boxGeometry args={[width, height, depth]} />
+      <boxGeometry args={[width, height, 1]} />
       <meshStandardMaterial color="gray" />
     </mesh>
   );
