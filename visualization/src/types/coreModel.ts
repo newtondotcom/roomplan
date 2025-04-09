@@ -1,3 +1,12 @@
+export type Dimensions = [number, number, number];
+
+export type Transform = [
+  number, number, number, number,
+  number, number, number, number,
+  number, number, number, number,
+  number, number, number, number
+];
+
 export interface CoreModel {
   coreModel: string;
   doors: Door[];
@@ -8,7 +17,7 @@ export interface CoreModel {
   story: number;
   version: number;
   walls: Wall[];
-  windows: any[]; // Assuming windows can be empty or have a specific structure
+  windows: Window[];
 }
 
 export interface Door {
@@ -22,12 +31,12 @@ export interface Door {
     high: Record<string, never>; // Empty object
   };
   curve: null;
-  dimensions: [number, number, number];
+  dimensions: Dimensions;
   identifier: string;
   parentIdentifier: string;
   polygonCorners: any[]; // Replace with specific type if corners have a structure
   story: number;
-  transform: number[];
+  transform: Transform;
 }
 
 export interface Floor {
@@ -39,12 +48,12 @@ export interface Floor {
     high: Record<string, never>;
   };
   curve: null;
-  dimensions: [number, number, number];
+  dimensions: Dimensions;
   identifier: string;
   parentIdentifier: string | null;
   polygonCorners: [number, number, number][];
   story: number;
-  transform: number[];
+  transform: Transform;
 }
 
 export interface Object {
@@ -57,11 +66,11 @@ export interface Object {
     medium?: Record<string, never>;
     low?: Record<string, never>;
   };
-  dimensions: [number, number, number];
+  dimensions: Dimensions;
   identifier: string;
   parentIdentifier: string | null;
   story: number;
-  transform: number[];
+  transform: Transform;
 }
 
 export interface Opening {
@@ -73,12 +82,12 @@ export interface Opening {
     high: Record<string, never>;
   };
   curve: null;
-  dimensions: [number, number, number];
+  dimensions: Dimensions;
   identifier: string;
   parentIdentifier: string;
   polygonCorners: any[];
   story: number;
-  transform: number[];
+  transform: Transform;
 }
 
 export interface Section {
@@ -96,10 +105,27 @@ export interface Wall {
     high: Record<string, never>;
   };
   curve: null;
-  dimensions: [number, number, number];
+  dimensions: Dimensions;
   identifier: string;
   parentIdentifier: string | null;
   polygonCorners: any[];
   story: number;
-  transform: number[];
+  transform: Transform;
+}
+
+export interface Window {
+  category: {
+    window: Record<string, never>;
+  };
+  completedEdges: any[];
+  confidence: {
+    high: Record<string, never>;
+  };
+  curve: null;
+  dimensions: Dimensions;
+  identifier: string;
+  parentIdentifier: string;
+  polygonCorners: any[];
+  story: number;
+  transform: Transform;
 }
